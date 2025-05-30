@@ -188,164 +188,36 @@ header nav {
 
 /* Features Grid Section */
 .features-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 40px;
-    padding: 60px 20px;
-    max-width: 1100px;
-    margin: 0 auto;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  padding: 60px 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.feature {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  max-width: 1000px;
+  width: 100%;
 }
 
 .feature-item {
-    padding: 20px;
+  flex: 1 1 300px;
+  min-width: 280px;
 }
 
 .feature-icon img {
-    width: 300px;
-    /* Adjust as needed */
-    margin-bottom: 15px;
-}
-
-.feature-item h2 {
-    font-size: 1.5em;
-    /* Slightly smaller for these sections */
-}
-
-/* Devices Section */
-.devices {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 40px;
-    padding: 60px 20px;
-    max-width: 1100px;
-    margin: 0 auto;
-    background-color: #f7f9fa;
-    /* Light grey background */
-}
-
-.devices-text {
-    flex: 1;
-    min-width: 300px;
-}
-
-.devices-text h2 {
-    margin-bottom: 20px;
-}
-
-.device-icons-placeholder {
-    font-size: 2em;
-    /* Example for emoji icons */
-    margin: 20px 0;
-}
-
-.devices-image {
-    flex: 1;
-    text-align: center;
-    min-width: 300px;
-}
-
-.devices-image img {
-    max-width: 100%;
-    height: auto;
-}
-
-/* Benefits Section */
-.benefits {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 30px;
-    padding: 60px 20px;
-    max-width: 1100px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.benefit-item {
-    flex-basis: 280px;
-    /* Adjust for 3 items per row */
-    padding: 20px;
-    background-color: #fdf6f0;
-    /* Light beige for benefit boxes */
-    border-radius: 8px;
-}
-
-.benefit-icon {
-    font-size: 2.5em;
-    /* Example for emoji icons */
-    margin-bottom: 15px;
-    color: #00838f;
-    /* Teal for icons */
-}
-
-.learn-more-link {
-    text-align: center;
-    margin-top: -20px;
-    /* Pull up under benefits */
-    margin-bottom: 40px;
-}
-
-
-/* Servers Map Section */
-.servers-map {
-    padding: 60px 20px;
-    text-align: center;
-    background-color: #fff;
-    /* White background */
-}
-
-.servers-map h2 {
-    margin-bottom: 30px;
-}
-
-.map-container {
-    position: relative;
-    /* For potential absolute positioning of stats if needed */
-    max-width: 800px;
-    margin: 0 auto 30px auto;
-}
-
-.world-map {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
-.server-stats {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    max-width: 600px;
-    margin: 30px auto 0 auto;
-    padding: 20px;
-    background-color: #f7f9fa;
-    /* Light grey for stats box */
-    border-radius: 8px;
-}
-
-.stat {
-    text-align: center;
-}
-
-.stat-number {
-    display: block;
-    font-size: 2.5em;
-    font-weight: bold;
-    color: #c82e25;
-    /* Red for numbers */
-}
-
-.stat-label {
-    font-size: 1em;
-    color: #555;
-}
-
-.see-locations-link {
-    text-align: center;
-    margin-top: 20px;
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
 }
 
 /* Footer */
@@ -470,77 +342,6 @@ footer {
     color: #007bff;
 }
 
-/* map section css */
-/* .server-section {
-    background-color: #fef6f5;
-    padding: 80px 20px;
-    text-align: center;
-    font-family: Arial, sans-serif;
-}
-
-.server-container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.server-container h2 {
-    font-size: 32px;
-    color: #0a0a23;
-    margin-bottom: 50px;
-}
-
-.server-content {
-    background-image: url(image/map.jpeg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.map img {
-    width: 600px;
-    max-width: 100%;
-    margin-right: 50px;
-}
-
-.server-stats {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    align-items: flex-start;
-    justify-content: center;
-}
-
-.stat h3 {
-    font-size: 40px;
-    color: #0a0a23;
-    margin: 0;
-}
-
-.stat p {
-    font-size: 16px;
-    color: #333;
-    margin: 0;
-}
-
-.see-more {
-    margin-top: 50px;
-}
-
-.see-more a {
-    color: #00b398;
-    font-size: 16px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.see-more a:hover {
-    text-decoration: underline;
-} */
 .server-section {
     /* background-color: #fef6f5; */
      background-image: url('image/mapppp.jpg');
@@ -596,7 +397,7 @@ footer {
     gap: 40px;
     align-items: flex-start;
     justify-content: center;
-    margin-right: 200px;
+    margin-left: 1100px;
 }
 
 .stat h3 {
