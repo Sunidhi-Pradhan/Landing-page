@@ -531,75 +531,88 @@ footer {
 .see-more a:hover {
     text-decoration: underline;
 } */
- .server-section {
-  background-color: #fef6f5;
-  padding: 80px 20px;
-  text-align: center;
-  font-family: Arial, sans-serif;
+.server-section {
+    /* background-color: #fef6f5; */
+     background-image: url('image/mapppp.jpg');
+    padding: 80px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 50px;
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .server-container {
-  max-width: 1200px;
-  margin: 0 auto;
+    /* max-width: 1200px; */
+    margin: 0 auto;
 }
 
 .server-container h2 {
-  font-size: 32px;
-  color: #0a0a23;
-  margin-bottom: 50px;
+    font-size: 32px;
+    color: #0a0a23;
+    margin-bottom: 50px;
 }
 
 .server-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
 }
 
 .map-bg {
-  width: 600px;
-  height: 400px;
-  background-image: url('image/mapppp.jpg'); /* Replace with actual filename */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-right: 50px;
+    /* width: 600px;
+    height: 400px; */
+    /* background-image: url('image/mapppp.jpg'); */
+    /* Replace with actual filename */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 50px;
+    height: 100vh;
+    width: 100vw; */
 }
 
 .server-stats {
     background-color: #fef6f5;
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  align-items: flex-start;
-  justify-content: center;
-
+    /* background-image: url('image/mapppp.jpg'); */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 200px;
 }
 
 .stat h3 {
-  font-size: 40px;
-  color: #0a0a23;
-  margin: 0;
-  background-color: #fef6f5;
+    font-size: 40px;
+    color: #0a0a23;
+    margin: 0;
+    background-color: #fef6f5;
 }
 
 .stat p {
-  font-size: 16px;
-  color: #333;
-  margin: 0;
+    font-size: 16px;
+    color: #333;
+    margin: 0;
 }
 
 .see-more {
-  margin-top: 50px;
+    margin-top: 50px;
 }
 
 .see-more a {
-  color: #00b398;
-  font-size: 16px;
-  text-decoration: none;
-  font-weight: bold;
+    color: #00b398;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .see-more a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
