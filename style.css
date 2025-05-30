@@ -13,16 +13,16 @@ body {
 }
 
 header.hero {
-  /* background: linear-gradient(to right, #fbeec1, #f8c8dc); */
-  padding: 2rem;
-  text-align: center;
+    /* background: linear-gradient(to right, #fbeec1, #f8c8dc); */
+    padding: 2rem;
+    text-align: center;
 }
 
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  font-weight: bold;
-  margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 1rem;
 }
 
 .container {
@@ -31,19 +31,23 @@ header.hero {
     padding: 0 20px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     margin-bottom: 0.75em;
 }
 
 h1 {
     font-size: 2.8em;
     font-weight: 900;
-    color: #3a3a3a; /* Darker text for headings */
+    color: #3a3a3a;
+    /* Darker text for headings */
 }
 
 h2 {
     font-size: 2em;
-    color: #006a71; /* Teal color from image */
+    color: #006a71;
+    /* Teal color from image */
 }
 
 h3 {
@@ -51,25 +55,26 @@ h3 {
     color: #3a3a3a;
 }
 
- .vpn {
+.vpn {
     font-size: 1.2em;
-    color:black;
+    color: black;
     margin-bottom: 20px;
     font-size: 1.7em;
     font-style: bold;
 }
 
-.day{
-  
-  margin-top: 25px;
-  font-size: 12px;
-  letter-spacing: 1px;
-  color: #333;
+.day {
+
+    margin-top: 25px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #333;
 
 }
 
 a {
-    color: #007bff; /* Standard link blue, adjust as needed */
+    color: #007bff;
+    /* Standard link blue, adjust as needed */
     text-decoration: none;
 }
 
@@ -82,42 +87,49 @@ a:hover {
     display: inline-block;
     padding: 12px 25px;
     border: none;
-    border-radius: 25px; /* Rounded buttons */
+    border-radius: 25px;
+    /* Rounded buttons */
     cursor: pointer;
     font-size: 1em;
     font-weight: bold;
     text-decoration: none;
     transition: background-color 0.3s ease;
 }
+
 .arrow {
-  margin-left: 10px;
+    margin-left: 10px;
 }
 
 .btn-primary {
-    background-color: #0f866c; /* Red color from image */
+    background-color: #0f866c;
+    /* Red color from image */
     color: white;
 }
 
 .btn-primary:hover {
-    background-color: #a7241c; /* Darker red */
+    background-color: #a7241c;
+    /* Darker red */
 }
 
 .btn-secondary {
-    background-color: #00838f; /* Teal color from image */
+    background-color: #00838f;
+    /* Teal color from image */
     color: white;
 }
 
 .btn-secondary:hover {
-    background-color: #006a71; /* Darker teal */
+    background-color: #006a71;
+    /* Darker teal */
 }
 
 
 /* Header & Nav */
 header {
-    background-color: #fdf6f0; /* Light beige from image */
+    background-color: #fdf6f0;
+    /* Light beige from image */
     padding: 15px 0;
     border-bottom: 1px solid #eee;
-    }
+}
 
 header nav {
     max-width: 1200px;
@@ -143,7 +155,8 @@ header nav {
 
 /* Hero Section */
 .hero {
-    background-color: #fdf6f0; /* Light beige from image */
+    background-color: #fdf6f0;
+    /* Light beige from image */
     padding: 60px 20px;
     text-align: center;
     height: 100vh;
@@ -159,7 +172,8 @@ header nav {
     font-style: bold;
     color: black;
 }
-.hero-content p .vpn{
+
+.hero-content p .vpn {
     font-size: 1.2em;
     margin-bottom: 1.5em;
     /* color: #555; */
@@ -188,12 +202,14 @@ header nav {
 }
 
 .feature-icon img {
-    width: 300px; /* Adjust as needed */
+    width: 300px;
+    /* Adjust as needed */
     margin-bottom: 15px;
 }
 
 .feature-item h2 {
-    font-size: 1.5em; /* Slightly smaller for these sections */
+    font-size: 1.5em;
+    /* Slightly smaller for these sections */
 }
 
 /* Devices Section */
@@ -205,7 +221,8 @@ header nav {
     padding: 60px 20px;
     max-width: 1100px;
     margin: 0 auto;
-    background-color: #f7f9fa; /* Light grey background */
+    background-color: #f7f9fa;
+    /* Light grey background */
 }
 
 .devices-text {
@@ -218,7 +235,8 @@ header nav {
 }
 
 .device-icons-placeholder {
-    font-size: 2em; /* Example for emoji icons */
+    font-size: 2em;
+    /* Example for emoji icons */
     margin: 20px 0;
 }
 
@@ -246,21 +264,26 @@ header nav {
 }
 
 .benefit-item {
-    flex-basis: 280px; /* Adjust for 3 items per row */
+    flex-basis: 280px;
+    /* Adjust for 3 items per row */
     padding: 20px;
-    background-color: #fdf6f0; /* Light beige for benefit boxes */
+    background-color: #fdf6f0;
+    /* Light beige for benefit boxes */
     border-radius: 8px;
 }
 
 .benefit-icon {
-    font-size: 2.5em; /* Example for emoji icons */
+    font-size: 2.5em;
+    /* Example for emoji icons */
     margin-bottom: 15px;
-    color: #00838f; /* Teal for icons */
+    color: #00838f;
+    /* Teal for icons */
 }
 
 .learn-more-link {
     text-align: center;
-    margin-top: -20px; /* Pull up under benefits */
+    margin-top: -20px;
+    /* Pull up under benefits */
     margin-bottom: 40px;
 }
 
@@ -269,7 +292,8 @@ header nav {
 .servers-map {
     padding: 60px 20px;
     text-align: center;
-    background-color: #fff; /* White background */
+    background-color: #fff;
+    /* White background */
 }
 
 .servers-map h2 {
@@ -277,7 +301,8 @@ header nav {
 }
 
 .map-container {
-    position: relative; /* For potential absolute positioning of stats if needed */
+    position: relative;
+    /* For potential absolute positioning of stats if needed */
     max-width: 800px;
     margin: 0 auto 30px auto;
 }
@@ -296,7 +321,8 @@ header nav {
     max-width: 600px;
     margin: 30px auto 0 auto;
     padding: 20px;
-    background-color: #f7f9fa; /* Light grey for stats box */
+    background-color: #f7f9fa;
+    /* Light grey for stats box */
     border-radius: 8px;
 }
 
@@ -308,7 +334,8 @@ header nav {
     display: block;
     font-size: 2.5em;
     font-weight: bold;
-    color: #c82e25; /* Red for numbers */
+    color: #c82e25;
+    /* Red for numbers */
 }
 
 .stat-label {
@@ -335,6 +362,7 @@ footer {
     h1 {
         font-size: 2.2em;
     }
+
     h2 {
         font-size: 1.8em;
     }
@@ -344,7 +372,8 @@ footer {
     }
 
     .features-grid {
-        grid-template-columns: 1fr; /* Stack features on smaller screens */
+        grid-template-columns: 1fr;
+        /* Stack features on smaller screens */
         gap: 30px;
         padding: 40px 20px;
     }
@@ -354,8 +383,11 @@ footer {
         text-align: center;
         padding: 40px 20px;
     }
-    .devices-text, .devices-image {
-        min-width: auto; /* Allow full width */
+
+    .devices-text,
+    .devices-image {
+        min-width: auto;
+        /* Allow full width */
     }
 
 
@@ -363,8 +395,10 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+
     .benefit-item {
-        flex-basis: auto; /* Allow full width */
+        flex-basis: auto;
+        /* Allow full width */
         width: 80%;
         max-width: 350px;
     }
@@ -374,53 +408,198 @@ footer {
         gap: 20px;
     }
 }
+
 /* advantage section */
 .advantages-section {
-  max-width: 1100px;
-  height: 100%;
-  margin: 0 auto;
-  padding: 60px 20px;
+    max-width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 60px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.advantages-section .advantage {
+    display: inline-block;
+    width: 300px;
+    margin: 0 20px;
+    vertical-align: top;
+}
+
+.advantages-section .advantage img {
+    width: 250px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.advantages-section h3 {
+    font-size: 20px;
+    color: #0a0a23;
+    margin-bottom: 10px;
+}
+
+.advantages-section p {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.advantages-section .see-more {
+    margin-top: 40px;
+}
+
+.advantages-section .see-more a {
+    font-size: 14px;
+    color: #00b398;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.advantages-section .see-more a:hover {
+    text-decoration: underline;
+    color: #007bff;
+}
+
+/* map section css */
+/* .server-section {
+    background-color: #fef6f5;
+    padding: 80px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.server-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.server-container h2 {
+    font-size: 32px;
+    color: #0a0a23;
+    margin-bottom: 50px;
+}
+
+.server-content {
+    background-image: url(image/map.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.map img {
+    width: 600px;
+    max-width: 100%;
+    margin-right: 50px;
+}
+
+.server-stats {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.stat h3 {
+    font-size: 40px;
+    color: #0a0a23;
+    margin: 0;
+}
+
+.stat p {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+}
+
+.see-more {
+    margin-top: 50px;
+}
+
+.see-more a {
+    color: #00b398;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.see-more a:hover {
+    text-decoration: underline;
+} */
+ .server-section {
+  background-color: #fef6f5;
+  padding: 80px 20px;
   text-align: center;
   font-family: Arial, sans-serif;
 }
 
-.advantages-section .advantage {
-  display: inline-block;
-  width: 300px;
-  margin: 0 20px;
-  vertical-align: top;
+.server-container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.advantages-section .advantage img {
-  width: 250px;
-  height: auto;
-  margin-bottom: 20px;
-}
-
-.advantages-section h3 {
-  font-size: 20px;
+.server-container h2 {
+  font-size: 32px;
   color: #0a0a23;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
 
-.advantages-section p {
-  font-size: 14px;
+.server-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.map-bg {
+  width: 600px;
+  height: 400px;
+  background-image: url('image/mapppp.jpg'); /* Replace with actual filename */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 50px;
+}
+
+.server-stats {
+    background-color: #fef6f5;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: center;
+
+}
+
+.stat h3 {
+  font-size: 40px;
+  color: #0a0a23;
+  margin: 0;
+  background-color: #fef6f5;
+}
+
+.stat p {
+  font-size: 16px;
   color: #333;
-  line-height: 1.5;
+  margin: 0;
 }
 
-.advantages-section .see-more {
-  margin-top: 40px;
+.see-more {
+  margin-top: 50px;
 }
 
-.advantages-section .see-more a {
-  font-size: 14px;
+.see-more a {
   color: #00b398;
+  font-size: 16px;
   text-decoration: none;
   font-weight: bold;
 }
 
-.advantages-section .see-more a:hover {
+.see-more a:hover {
   text-decoration: underline;
-  color: #007bff;
 }
