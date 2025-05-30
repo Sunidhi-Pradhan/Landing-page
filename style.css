@@ -12,6 +12,19 @@ body {
     background-color: #fff;
 }
 
+header.hero {
+  /* background: linear-gradient(to right, #fbeec1, #f8c8dc); */
+  padding: 2rem;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
 .container {
     max-width: 1100px;
     margin: auto;
@@ -38,9 +51,18 @@ h3 {
     color: #3a3a3a;
 }
 
-p {
-    margin-bottom: 1em;
-    color: #555;
+ .vpn {
+    font-size: 1.2em;
+    color:black;
+}
+
+.day{
+  
+  margin-top: 25px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #333;
+
 }
 
 a {
@@ -64,9 +86,12 @@ a:hover {
     text-decoration: none;
     transition: background-color 0.3s ease;
 }
+.arrow {
+  margin-left: 10px;
+}
 
 .btn-primary {
-    background-color: #c82e25; /* Red color from image */
+    background-color: #0f866c; /* Red color from image */
     color: white;
 }
 
@@ -89,7 +114,7 @@ header {
     background-color: #fdf6f0; /* Light beige from image */
     padding: 15px 0;
     border-bottom: 1px solid #eee;
-}
+    }
 
 header nav {
     max-width: 1200px;
@@ -103,7 +128,8 @@ header nav {
 .logo {
     font-size: 1.5em;
     font-weight: bold;
-    color: #c82e25; /* Red for logo */
+    /* color: #c82e25; Red for logo */
+    color: #c9251c;
 }
 
 .lang-selector select {
@@ -117,10 +143,18 @@ header nav {
     background-color: #fdf6f0; /* Light beige from image */
     padding: 60px 20px;
     text-align: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(image/homepage-pingzhu-hero-bg-opt-v2-3ce3022343c7ad918545a6a2e01f36b5.avif);
+    background-size: cover;
+    background-position: center;
 }
 
 .hero-content h1 {
     margin-bottom: 0.3em;
+    font-size: 5em;
+    font-style: bold;
+    color: black;
 }
 .hero-content p {
     font-size: 1.2em;
@@ -130,7 +164,7 @@ header nav {
 .hero-image img {
     max-width: 100%;
     height: auto;
-    margin-top: 30px;
+    margin-top: 165px;
 }
 
 
