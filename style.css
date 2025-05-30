@@ -54,6 +54,9 @@ h3 {
  .vpn {
     font-size: 1.2em;
     color:black;
+    margin-bottom: 20px;
+    font-size: 1.7em;
+    font-style: bold;
 }
 
 .day{
@@ -156,15 +159,16 @@ header nav {
     font-style: bold;
     color: black;
 }
-.hero-content p {
+.hero-content p .vpn{
     font-size: 1.2em;
     margin-bottom: 1.5em;
-    color: #555;
+    /* color: #555; */
 }
+
 .hero-image img {
     max-width: 100%;
     height: auto;
-    margin-top: 165px;
+    margin-top: 195px;
 }
 
 
@@ -184,7 +188,7 @@ header nav {
 }
 
 .feature-icon img {
-    max-width: 80px; /* Adjust as needed */
+    width: 300px; /* Adjust as needed */
     margin-bottom: 15px;
 }
 
