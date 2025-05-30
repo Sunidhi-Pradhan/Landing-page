@@ -374,3 +374,53 @@ footer {
         gap: 20px;
     }
 }
+/* advantage section */
+.advantages-section {
+  max-width: 1100px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.advantages-section .advantage {
+  display: inline-block;
+  width: 300px;
+  margin: 0 20px;
+  vertical-align: top;
+}
+
+.advantages-section .advantage img {
+  width: 250px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.advantages-section h3 {
+  font-size: 20px;
+  color: #0a0a23;
+  margin-bottom: 10px;
+}
+
+.advantages-section p {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.5;
+}
+
+.advantages-section .see-more {
+  margin-top: 40px;
+}
+
+.advantages-section .see-more a {
+  font-size: 14px;
+  color: #00b398;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.advantages-section .see-more a:hover {
+  text-decoration: underline;
+  color: #007bff;
+}
